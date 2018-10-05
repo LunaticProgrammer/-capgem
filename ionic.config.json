@@ -1,0 +1,7 @@
+{
+  "name": "lapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
