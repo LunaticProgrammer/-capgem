@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="text-center" id="log">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Username</label>
+          <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter Username">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Password">
+        </div>
+        <ion-anchor href=""><button type="submit"  id="button" >Submit</button></ion-anchor>
+        <ion-button (click)="onSubmit()">
+          <ion-icon slot="start" name="finger-print"></ion-icon>
+        </ion-button>
+      </form>
+
+    <ion-anchor  href="/register" style="display : block; margin-top: 7%;" class="text-center"> Create Account! </ion-anchor>      
+     
+</ion-content>
+
